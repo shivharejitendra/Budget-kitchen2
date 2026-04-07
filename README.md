@@ -1,16 +1,101 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍽️ Budget Kitchen
 
-Currently, two official plugins are available:
+**Budget Kitchen** is a modern frontend-based food ordering web application built using React (Vite). It allows users to explore food items, manage their cart, and simulate placing orders with a clean and responsive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://budget-kitchen2.vercel.app/
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🛒 Add to Cart functionality
+* 🍔 Browse food items by categories
+* 🔍 Search food items
+* 📱 Fully responsive design (mobile + desktop)
+* 🔐 Login / Signup popup UI
+* 💳 Order placement interface
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js (Vite)
+* **Styling:** CSS
+* **State Management:** Context API
+* **Version Control:** Git & GitHub
+* **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+frontend/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── App.jsx
+│   ├── main.jsx
+│── index.html
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Budget-kitchen2.git
+
+# Navigate to project folder
+cd Budget-kitchen2/frontend
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+* Built reusable React components
+* Implemented state management using Context API
+* Designed responsive UI with CSS
+* Managed project with Git & GitHub
+* Deployed project using Vercel
+
+---
+
+## 📈 Future Improvements
+
+* Backend integration (Node.js + MongoDB)
+* User authentication system
+* Payment gateway integration
+* Order tracking system
+
+---
+
+## 👨‍💻 Author
+
+**Jitendra Shivhare**
+
+---
+
+## ⭐ Support
+
+If you like this project, please ⭐ the repository and share it!
