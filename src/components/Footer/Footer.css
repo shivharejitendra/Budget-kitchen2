@@ -1,0 +1,119 @@
+.footer{
+    color:#e4e4e4;
+    background-color:#4f4f4f;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    padding:40px 8vw;
+    margin-top:80px;
+}
+.footer{
+border-top:4px solid tomato;
+}
+
+.footer-content{
+    width:100%;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:80px;
+}
+
+/* LEFT SECTION */
+
+.footer-content-left{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.footer-content-left img{
+    width:220px;
+}
+
+
+.footer-content-left p{
+    font-size:15px;
+    line-height:1.6;
+    color:#d9d9d9;
+}
+
+/* COMPANY + CONTACT */
+
+.footer-content-center,
+.footer-content-right{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.footer-content-center h2,
+.footer-content-right h2{
+    color:white;
+    font-size:20px;
+}
+
+.footer-content-center li,
+.footer-content-right li{
+    list-style:none;
+    margin-bottom:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.footer-content-center li:hover{
+    color:tomato;
+}
+
+/* SOCIAL ICONS */
+
+.footer-social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.footer-social-icons img{
+    width:35px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.footer-social-icons img:hover{
+    transform:scale(1.2);
+}
+
+/* DIVIDER */
+
+.footer hr{
+    width:100%;
+    height:1px;
+    background-color:#777;
+    border:none;
+}
+
+/* COPYRIGHT */
+
+.footer-copyright{
+    text-align:center;
+    font-size:14px;
+    color:#d9d9d9;
+}
+
+/* MOBILE */
+
+@media(max-width:750px){
+
+    .footer-content{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .footer-content-left img{
+        width:180px;
+    }
+
+    .footer{
+        padding:40px 5vw;
+    }
+
+}
